@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: paymentservice
-          image: scherbakov/hipster-shop-frontend:0.0.2
+          image: scherbakov/hipster-shop-paymentservice:0.0.2
           env:
           - name: PORT
             value: "8080"
